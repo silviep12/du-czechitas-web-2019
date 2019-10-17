@@ -1,0 +1,56 @@
+body{
+
+    color:#282425;
+    background-color: #fff1e6;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    line-height: 1,5px;
+
+
+}
+
+h1,
+h2,
+a{
+    color:#756158;
+    font-style: italic;
+}
+
+
+h1{
+    font-size: 60px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+
+h1,
+h2{
+    font-family: 'Playfair Display', serif;
+}
+
+a,
+strong{
+    color:#8B4513;
+}
+
+
+.heading img{
+    width:200px;
+    border-radius:0 50px 50px 50px;
+
+}
+
+.travelling-kids img{
+    width:200px;
+    border-radius:10px;
+    
+
+}
+
+.about-me,
+.contact{
+    background-color: #f9e3d0;
+}
