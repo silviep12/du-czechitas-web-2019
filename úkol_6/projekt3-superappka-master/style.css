@@ -1,0 +1,170 @@
+/* nejsme vcerejsi, pouzivame moderni box model */
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
+/*
+ BARVY
+ sede pozadi      #e5e5e5
+ svetle fialova   #48418e
+ tmave fialova    #25133d
+
+ POUZITE PISMO
+ Source Sans Pro - rezy pisma light 300, regular 400 a bold 700
+ https://fonts.google.com/specimen/Roboto
+*/
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #e5e5e5;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+}
+
+.obal {
+    width: 960px; /* obsah stránky je omezený do pruhu širokého 960px */
+    margin: 0 auto; /* pruh je na stránce vycentrovaný */
+    background: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+
+/* ----- zde začni psát vlastní CSS ----- */
+.menu{
+    margin:0;
+    padding:0;
+    text-align: left;
+    background-color:white
+    
+}
+
+.menu li {
+    display:inline-block;
+}
+
+.menu p {
+    display:inline-block;
+    padding-left: 20px;
+    font-weight:bold;
+}
+
+.menu a {
+
+    color:black;
+    padding:20px 30px;
+    text-decoration:none;
+    display:inline-block;
+}
+
+.hlavicka{
+    background-image:url(images/pozadi.jpg);
+    color:white;
+    padding:40px 30px;
+    position:relative;
+   
+   }
+   
+.hlavicka a{
+    color:white;
+}
+
+.hlavicka .foto-telefonu {
+    position:absolute;
+    bottom:0px;
+    right:0px;
+}
+.hlavicka h1{
+    font-size:64px;
+    font-weight:700;
+}
+
+.hlavicka h2{
+    font-size:32px;
+    font-weight:300;
+}
+
+
+.odkazy{
+    padding:0px;
+}
+.odkazy li{
+    display:inline-block;
+    
+}
+.odkazy a{
+   
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    display:block;
+    text-decoration:none;
+    
+      
+}
+
+.odkazy .stahnout-zdarma{
+    border: solid 1px white;
+    border-radius: 10px;
+    background-color: #48418e;
+    margin-right:40px;
+}
+
+.odkazy .vice-informaci{
+    border: solid 1px white;
+    border-radius: 10px;
+}
+
+
+.column-layout{
+    display:flex;
+    margin:40px;
+}
+
+
+.cestuj-po-svete{
+    flex:1;
+    font-size: 12px;
+
+}
+
+.chatuj-s-prateli{
+    flex:1;
+    font-size: 12px;
+
+}
+
+.zazij-dobrodruzstvi{
+    flex:1;
+    font-size: 12px;
+
+}
+
+.column-layout h3{
+    color:#48418e;
+    text-align: center;
+}
+
+
+.column-layout img{
+    margin-left: 120px ;
+ }
+
+
+
+.paticka{
+    background-color:#25133d;
+    color:white;
+    text-align:center;
+    padding: 10px 0;
+    font-size:10px;
+}
+
+
+
+
+
+
