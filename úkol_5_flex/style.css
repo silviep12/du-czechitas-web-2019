@@ -1,0 +1,112 @@
+/* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
+/*
+ BARVY
+ czechitas c
+ pozadi     #bdc3c7
+ tmava      #31363b
+ delitka    #3f464d
+ portfolio  #e74c3c
+ facebook   #3b5998
+ twitter    #1da1f2
+*/
+
+
+body {
+    background-color: #bdc3c7;
+    
+}
+
+
+.profil
+{
+    background-color: #31363b;
+    color: #bdc3c7;
+    width: 250px;
+}
+
+
+.hlavicka .foto{
+    width:100%;
+
+}
+
+.hlavicka {
+
+    position:relative;
+}
+
+.hlavicka .logo{
+    position:absolute;
+    bottom:-20px;
+    right:10px;
+    border-radius: 50%;
+    background-color: #b92e81;
+}
+
+.obsah .jmeno{
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    font-size:20px;
+}
+
+.obsah{
+   
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:15px;
+    padding:15px;
+}
+
+.odkazy {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display:flex;
+    flex-wrap:wrap;
+    
+}
+
+
+
+
+.odkazy a {
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    padding: 15px;
+    text-align: center;
+    border: solid 1px #3f464d;
+    font-weight: bold;
+    display:block;
+    text-decoration:none;
+    text-transform: uppercase;
+}
+   
+ .facebook  {
+    width: 50%;
+    }
+
+.twitter{
+    width: 50%;
+}
+
+.portfolio {
+    width:100%;
+
+}
+
+.portfolio:hover {
+    background-color: #e74c3c;
+}
+
+.twitter:hover {
+    background-color: #1da1f2;
+}
+
+
+.facebook:hover {
+    background-color: #3b5998;
+}
+
+
