@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mobilní aplikace</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap&subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+</head>
+
+<body>
+    <div class="obal">
+
+        <nav class="navbar">
+            <div class="brand-title">SUPER APPKA</div>
+            <a href="#" class="toggle-button">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </a>
+            <div class="navbar-links">
+              <ul>
+                <li><a href="#">Úžasný design</a></li>
+                <li><a href="#">Boží funkce</a></li>
+                <li><a href="#">Zdarma ke stažení</a></li>
+              </ul>
+            </div>
+          </nav>
+  
+
+
+          <script> 
+          console.log("Hello!");
+         const toggleButton = document.getElementsByClassName('toggle-button') [0]
+         const navbarLinks = document.getElementsByClassName('navbar-links')  [0]
+
+         toggleButton.addEventListener('click',() => {
+             navbarLinks.classList.toggle('active')
+
+         })
+
+
+          
+          </script>
+       
+
+
+        <!--Hlavička stránky-->
+        <header class="hlavicka">
+            <h1>Super Appka</h1>
+            <h2>Úžasná mobilní aplikace,<br>
+                která Ti změní život</h2>
+
+
+        
+            <ul class="odkazy">
+                <li class="stahnout-zdarma"><a href="#">Stáhnout zdarma</a></li>
+                <li class="vice-informaci"><a href="#">Více informací</a></li>
+
+            </ul>
+
+            <img class="foto-telefonu" id="optional" src="images/telefon.png" width="400" alt="Foto telefonu">
+
+        </header>
+      
+
+    <div class= "column-layout">
+
+        <!---Sekce Cestuj po světě-->
+
+        <section class="cestuj-po-svete">
+           
+            <img class="letadlo" src="images/letadlo.svg" width="50" height="50" alt="logo letadla">
+            
+            <h3>Cestuj po světě</h3>
+
+            <p>Lorem ipsum dolor sit amet,
+               consectetur adipisicing elit.Vitae,
+               perferendis maxime quisquam cum ut
+               nobis corporis ipsa eveniet deleniti.</p>
+
+
+        </section>
+
+        <!-- Sekce Chatuj s přáteli-->
+        <section class="chatuj-s-prateli">
+            
+            <img class="bubliny" src="images/bubliny.svg" width="50" height="50" alt="logo bublin">
+
+            <h3>Chatuj s přáteli</h3>
+
+            <p>Lorem ipsum dolor sit amet,
+                consectetur adipisicing elit.Vitae,
+                perferendis maxime quisquam cum ut
+                nobis corporis ipsa eveniet deleniti.</p>
+
+            </section>
+
+        <!-- Sekce Zažij dobrodružství -->
+        <section class="zazij-dobrodruzstvi">
+            
+            <img class="mapa" src="images/mapa.svg" width="50" height="50" alt="logo mapa">
+
+            <h3>Zažij dobrodružství</h3>
+
+            <p>Lorem ipsum dolor sit amet,
+                consectetur adipisicing elit.Vitae,
+                perferendis maxime quisquam cum ut
+                nobis corporis ipsa eveniet deleniti.</p>
+
+            </section>
+    </div>
+
+
+            <!--Patička-->
+       <footer class="paticka">
+        <p>© 2019, Web od A do Z</p>
+
+
+        </footer>
+
+
+        
+
+
+
+
+
+
+    </div><!-- konec .obal -->
+</body>
+
+</html>
